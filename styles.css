@@ -1,0 +1,287 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.details{
+    margin-top: 15%;
+    display: flex;
+    align-items: top-left;
+}
+
+.image {
+    margin-right: 30px;
+    border-radius: 10%;
+    overflow: hidden;
+    width: 100px;
+    height: 100px;
+    justify: top-left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.details h1{
+    font-size: 50px;
+    color: #212121;
+    margin-bottom: 10px;
+}
+
+span{
+    color: orange;
+}
+
+.details p{
+    color: #555;
+    line-height: 22px;
+    width: 90%;
+}
+
+.details a{
+    background: #212121;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+}
+
+#about {
+  background-color: #f8f8f8;
+  padding: 30px 0;
+}
+
+#about h2 {
+  font-size: 30px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.about-content {
+  display: flex;
+  align-items: left;
+  justify-content: left;
+}
+
+.about-text p {
+  margin-bottom: 20px;
+  color: #555;
+  line-height: 22px;
+}
+
+#portfolio {
+  background-color: #f1f1f1;
+  padding: 20px 0;
+  
+}
+
+#portfolio h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 36px;
+  font-weight: bold;
+  color: #212121;
+}
+
+.portfolio-container {
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+  flex-wrap: wrap;
+  
+}
+
+.portfolio-card {
+  width: calc(33.33% - 20px);
+  margin-bottom: 40px;
+  margin-left: 10px;
+  margin-right: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.portfolio-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.portfolio-info {
+  padding: 20px;
+  background-color: #f7f7f7;
+}
+
+.portfolio-info h3 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #212121;
+  margin-bottom: 10px;
+}
+
+.portfolio-info p {
+  font-size: 16px;
+  color: #555;
+  line-height: 22px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  background: #212121;
+  padding: 10px 18px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #fff;
+  display: inline-block;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.skills {
+  width: 80%;
+  margin: 30px auto;
+}
+
+.skills h2 {
+  font-size: 30px;
+  margin-bottom: 30px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.skills ul {
+  list-style: none;
+}
+
+.skills li {
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.skills .skill-name {
+  color: #555;
+  font-size: 24px;
+  width: 150px;
+  justify-content: flex-end;
+}
+
+.skills .slider {
+  height: 20px;
+  width: 300px;
+  background-color: #dddd;
+  border-radius: 10px;
+  margin-left: 20px;
+  position: relative;
+  flex: 1;
+}
+
+.skills .slider-value {
+  height: 100%;
+  border-radius: 10px;
+  background-color: #333;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+
+
+#contact {
+  padding: 40px 0;
+  background-color: #f1f1f1;
+}
+
+.contact-card {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.contact-card h2 {
+  margin-bottom: 20px;
+  text-align: center;
+  color: #212121;
+}
+
+.contact-card form label {
+  display: block;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.contact-card form input[type="email"],
+.contact-card form textarea {
+  background-color: #f1f1f1;
+  width: 90%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 10px;
+}
+
+.contact-card form textarea {
+  background-color: #f1f1f1;
+  height: 100%;
+  width: 90%;
+}
+
+.contact-card form button[type="submit"] {
+  background-color: #212121;
+  padding: 10px 18px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #fff;
+  display: inline-block;
+  margin-top: 0px;
+  border: none;
+  border-radius: 5px;
+}
+
+.links {
+  margin-top: 40px;
+}
+
+.links ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+
+.links li {
+  margin-right: 20px;
+  font-size: 16px;
+}
+
+.links li:last-child {
+  margin-right: 0;
+}
+
+.links a {
+  display: block;
+  color: #212121;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.links a:hover {
+  color: #fff;
+}
